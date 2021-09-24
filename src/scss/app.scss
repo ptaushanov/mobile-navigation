@@ -27,3 +27,31 @@ html {
   font-size: 10rem;
   flex-flow: column;
 }
+
+.navbar-burger img {
+  padding: 5px;
+}
+
+.navbar-burger {
+  @media screen and (min-width:1024px) {
+    visibility: hidden;
+  }
+}
+
+.navbar-menu {
+  @media screen and (max-width:1024px) {
+    visibility: hidden;
+  }
+}
+
+.menu-list {
+  width: 100%;
+  list-style: none;
+  margin-right: 5%;
+}
+
+.menu-item {
+  display: inline;
+  margin: 1rem;
+  float: right;
+}
