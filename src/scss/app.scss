@@ -33,13 +33,13 @@ html {
 }
 
 .navbar-burger {
-  @media screen and (min-width:600px) {
+  @media screen and (min-width:1024px) {
     visibility: hidden;
   }
 }
 
 .navbar-menu {
-  @media screen and (max-width:600px) {
+  @media screen and (max-width:1024px) {
     visibility: hidden;
   }
 }
